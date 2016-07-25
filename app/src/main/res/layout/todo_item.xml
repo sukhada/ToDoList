@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp" >
+    <TextView
+        android:id="@+id/todo_item_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="start"
+        android:text="Item Text" />
+
+    <TextView
+        android:id="@+id/todo_item_due_date"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:text="Due Date" />
+</FrameLayout>
