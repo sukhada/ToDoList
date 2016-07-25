@@ -5,13 +5,17 @@
         android:id="@+id/todo_item_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
-        android:layout_gravity="start"
-        android:text="Item Text" />
+        android:layout_gravity="center_vertical|start"
+        android:text="Item Text"
+        android:gravity="center_vertical"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/todo_item_due_date"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_gravity="end"
-        android:text="Due Date" />
+        android:layout_gravity="end|center_vertical"
+        android:text="Due Date"
+        android:gravity="center_vertical"
+        android:textSize="12sp" />
 </FrameLayout>

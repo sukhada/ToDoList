@@ -5,8 +5,8 @@ android {
     buildToolsVersion "24.0.0"
 
     defaultConfig {
-        applicationId "com.example.skulkarni.todolist"
-        minSdkVersion 15
+        applicationId "com.example.skulkarni.ToDoList"
+        minSdkVersion 21
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
